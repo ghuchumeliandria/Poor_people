@@ -243,17 +243,19 @@ nav {
   color: #fff;
   transition:  1s;
 }
-.donate_btn:hover {
-  background-color: transparent;
-  border: 1px solid #7e8ab8;
-  color: #7e8ab8;
-  box-shadow: 0 0 5px #7e8ab8;
-}
 
-  .donate_btn a:hover{
+@media( min-width : 500px){
+  .donate_btn:hover {
+    background-color: transparent;
+    border: 1px solid #7e8ab8;
     color: #7e8ab8;
+    box-shadow: 0 0 5px #7e8ab8;
   }
-
+  
+    .donate_btn a:hover{
+      color: #7e8ab8;
+    }
+}
 .donate-img {
   max-width: 637px;
   max-height: 637px;
