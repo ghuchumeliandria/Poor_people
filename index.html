@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="second.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="intro-section">
+        <nav>
+          <div class="logo">
+            <h1 class="logo-heading">CHA</h1>
+            <div class="logo-background">
+              <div class="logo-orange-background"></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="90"
+                height="122"
+                viewBox="0 0 61 122"
+                fill="none">
+                <circle cy="61" r="61" fill="#E3E2CD" />
+              </svg>
+            </div>
+          </div>
+          <div class="nav-bar" id="nav">
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Causes</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Events</a></li>
+              <li><a href="">Blog</a></li>
+              <!-- ravi -->
+            </ul>
+            <button class="contact-btn">Contact</button>
+          </div>
+          <div class="hamburger-menu" id="hamburger">
+            <div class="line-container">
+              <div class="line" id="line1"></div>
+              <div class="line" id="line2"></div>
+              <div class="line" id="line3"></div>
+            </div>
+            <!-- მენიუზე დაჭეირას X რომ გამოჩნდეს ღილაკზე იმის svg არის ეს , display none ექნება და კლიკზე ამას block , წინას none -->
+          </div>
+          <!-- ამ ჰამბურგერ მენიუს დესკტოპ ვერსიაზე ვაქრობ და ტაბლეტზე ვაჩენ
+                    -->
+        </nav>
+
+        <div class="intro-content">
+          <div class="intro-content-heading">
+            <h1>Giving help to those who need it</h1>
+            <p>
+              It involves giving money, goods or time and effort to those who
+              need it.
+            </p>
+            <button class="donate_btn"><a href="#secDonation">make a donation</a></button>
+          </div>
+
+          <div class="intro-content-picture">
+            <img src="images/donate.png" alt="donate" class="donate-img" />
+          </div>
+          <div class="intro-content-rectangle"></div>
+        </div>
+      </section>
+
+      <!--------------------------------------- SECTION FEATURES ------------------------------------------------ -->
+
+      <section class="donate_section">
+        <div class="donate_features">
+          <div class="donate_heading">
+            <p>Our Features</p>
+            <h1>
+              Whatever it is that you care about, there will be a charity
+              working on it. Charities help in lots of different ways.
+            </h1>
+          </div>
+          <div class="donate_features_card_container">
+            <div class="donate_features_card_box">
+
+              <div class="donate_features_card">
+
+                <div class="donate_features_card_heading">
+                  <img src="./images/card-charity.png" alt="charity" />
+                  <h2>Direct Help</h2>
+                </div>
+                <div class="donate_features_card_line"></div>
+                <p class="donate_features_card_description">
+                  Charities bring together people who care about a cause so that
+                  they can make a difference.
+                </p>
+
+              </div>
+
+              <div class="donate_features_card">
+
+                <div class="donate_features_card_heading">
+                  <img src="./images/card-solidarity.png" alt="charity" />
+                  <h2>Giving Information</h2>
+                </div>
+                <div class="donate_features_card_line"></div>
+                <p class="donate_features_card_description">
+                  People who care about a cause so that they can make a difference it is that you care about.
+                </p>
+
+              </div>
+
+            </div>
+            <div class="donate_features_card_box">
+
+              <div class="donate_features_card">
+
+                <div class="donate_features_card_heading">
+                  <img src="./images/card-love.png" alt="charity" />
+                  <h2>Raising Awareness</h2>
+                </div>
+                <div class="donate_features_card_line"></div>
+                <p class="donate_features_card_description">
+                  Whatever it is that you care about, there will be a charity working on it.
+                </p>
+
+              </div>
+
+              <div class="donate_features_card">
+
+                <div class="donate_features_card_heading">
+                  <img src="./images/card-pot.png" alt="charity" />
+                  <h2>Relieving Poverty</h2>
+                </div>
+                <div class="donate_features_card_line"></div>
+                <p class="donate_features_card_description">
+                  Charities help in lots of different ways, but the main ways are by providing direct help.
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+          
+        </section>
+
+          <!-- SECTION___DONATION  -->
+
+
+          <section class="donation" >
+            <div class="donation_main_container" >
+
+            <div class="donate_heading">
+              <p>Our Cases</p>
+              <h1>Our Recent Causes</h1>
+            </div>
+
+
+            
+            <div class="donate_card_container" id="secDonation">
+              
+              <div class="donate_card">
+                <div class="donate_card_picture">
+                  <img src="images/poor_girl.jpg" alt="" >
+                  <div class="donate_card_picture_meaning"><p>WATER</p></div>
+                </div>
+                <div class="donate_card_description">
+                  <h2>Bring together people who care about a cause</h2>
+                  <div class="donate_card_donation">
+                    <p class="completed_donation"> 6993$</p>
+                    <p class="goal_donation" > $ 10000 Goal</p>
+                  </div>
+                  <div class="donate_card_level">
+                    <div class="completed_donation_level"></div>
+                  </div>
+                  <button class="donate_btn">Make a Donation</button>
+                </div>
+              </div>
+              
+              
+              <div class="donate_card">
+                <div class="donate_card_picture">
+                  <img src="images/black_poor_child_for_donation.jpg" alt="" >
+                  <div class="donate_card_picture_meaning"><p>Food</p></div>
+                </div>
+                <div class="donate_card_description">
+                  <h2>Together people who care about a cause</h2>
+                  <div class="donate_card_donation">
+                    <p class="completed_donation"> 5$</p>
+                    <p class="goal_donation" > $ 10000 Goal</p>
+                  </div>
+                  <div class="donate_card_level">
+                    <div class="completed_donation_level"></div>
+                  </div>
+                  <button class="donate_btn">Make a Donation</button>
+                </div>
+              </div>
+              
+              <div class="donate_card">
+                <div class="donate_card_picture">
+                  <img src="images/2black_poor_child.jpg" alt="" >
+                  <div class="donate_card_picture_meaning"><p>charity</p></div>
+                </div>
+                <div class="donate_card_description">
+                  <h2>People who care about a cause</h2>
+                  <div class="donate_card_donation" id="cardDonation">
+                    <p class="completed_donation" > 5$</p>
+                    <p class="goal_donation" > $ 10000 Goal</p>
+                  </div>
+                  <div class="donate_card_level">
+                    <div class="completed_donation_level"></div>
+                  </div>
+                  <button class="donate_btn">Make a Donation</button>
+                </div>
+              </div>
+
+            </div>
+            
+            <div class="donate_hidden_cards" id="hiddenCards">
+            <div class="donate_card_container">
+
+              <div class="donate_card">
+                <div class="donate_card_picture">
+                  <img src="images/another_black_poor.jpg" alt="" >
+                  <div class="donate_card_picture_meaning"><p>SHOES</p></div>
+                </div>
+                <div class="donate_card_description">
+                  <h2>Bring together people who care about a cause</h2>
+                  <div class="donate_card_donation">
+                    <p class="completed_donation"> 5$</p>
+                    <p class="goal_donation" > $ 10000 Goal</p>
+                  </div>
+                  <div class="donate_card_level">
+                    <div class="completed_donation_level"></div>
+                  </div>
+                  <button class="donate_btn">Make a Donation</button>
+                </div>
+              </div>
+
+
+              <div class="donate_card">
+                <div class="donate_card_picture">
+                  <img src="images/wihte_poor_child.jpg" alt="" >
+                  <div class="donate_card_picture_meaning"><p>t-shirts</p></div>
+                </div>
+                <div class="donate_card_description">
+                  <h2>People who care about a cause</h2>
+                  <div class="donate_card_donation" id="main">
+                    <p class="completed_donation"> 5$</p>
+                    <p class="goal_donation" > $ 10000 Goal</p>
+                  </div>
+                  <div class="donate_card_level">
+                    <div class="completed_donation_level"></div>
+                  </div>
+                  <button class="donate_btn">Make a Donation</button>
+                </div>
+              </div>
+
+              <div class="donate_card">
+                <div class="donate_card_picture">
+                  <img src="images/chill_guy.jpg " alt="" >
+                  <div class="donate_card_picture_meaning"><p>money</p></div>
+                </div>
+                <div class="donate_card_description">
+                  <h2>A child who needs money and women.</h2>
+                  <div class="donate_card_donation" id="cardDonation">
+                    <p class="completed_donation" >12000$</p>
+                    <p class="goal_donation" > $ 10000 Goal</p>
+                  </div>
+                  <div class="donate_card_level">
+                    <div class="completed_donation_level"></div>
+                  </div>
+                  <button class="donate_btn">Make a Donation</button>
+                </div>
+              </div>
+
+            </div>
+
+            </div>
+            
+            <div class="explore_all">
+              <button class="explore_all_btn" id="exploreAllBtn">explore all</button>
+            </div>
+            </div>
+          </section>
+
+        </div>
+    </main>
+
+    <script src="hamburger.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
