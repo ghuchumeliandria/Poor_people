@@ -226,10 +226,12 @@ nav {
 
 .donate_btn {
   width: 202px;
-  height: 48px;
+  padding: 16px 0;
   border-radius: 24px;
+  text-decoration: none;
   background: #7e8ab8;
   border: none;
+  text-align: center;
   color: #fff;
   font-family: Rowdies;
   font-size: 14px;
@@ -237,12 +239,9 @@ nav {
   text-transform: uppercase;
   cursor: pointer;
   transition:  1s;
+
 }
-.donate_btn a{
-  text-decoration: none;
-  color: #fff;
-  transition:  1s;
-}
+
 
 @media( min-width : 500px){
   .donate_btn:hover {
@@ -251,10 +250,6 @@ nav {
     color: #7e8ab8;
     box-shadow: 0 0 5px #7e8ab8;
   }
-  
-    .donate_btn a:hover{
-      color: #7e8ab8;
-    }
 }
 .donate-img {
   max-width: 637px;
